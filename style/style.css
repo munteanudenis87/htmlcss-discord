@@ -1,0 +1,97 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(21, 25, 245);
+    padding: 1rem 20%;
+}
+.main-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.accedi{
+    padding: 0.3rem;
+    border-radius: 25px;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.color-white{
+    color: white;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    background-image: url("/img/jumbo.png");
+}
+.chapter1{
+    background-color: blueviolet;
+    height: 200px;
+    width: 800px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 20%;
+}
+.b-col{
+    flex-basis: 65%;
+}
+.s-col{
+    flex-basis: 35%;
+}
+.title{
+    padding-top: 2rem;
+}
+.content{
+    padding-top: 1rem;
+}
+.section3{
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 20%;
+}
+.chapter6{
+    flex-basis: 100%;
+}
+.section4{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem
+}
+.chapter7{
+    background-color: blueviolet;
+    height: 200px;
+    width: 364px;
+}
+.chapter8{
+    background-color: rgb(39, 197, 197);
+    height: 200px;
+    width: 184px;
+}
+.footer-logo{
+    background-color: rgb(22, 22, 22);
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.footer-logo-return{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding: 1rem 0rem;
+}
+.logo-return{
+    background-color: pink;
+    padding: 0.5rem;
+}
