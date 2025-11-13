@@ -27,13 +27,39 @@ header nav ul{
 .section1{
     display: flex;
     justify-content: center;
-    padding: 1.5rem;
-    background-image: url("/img/jumbo.png");
+    padding-top: 7rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
+}
+.main-title{
+    color: white;
+    text-align: center;
 }
 .chapter1{
-    background-color: blueviolet;
     height: 200px;
-    width: 800px;
+    width: 600px;
+    padding: 2rem;
+}
+.main-info{
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.button-s{
+    padding: 2%;
+    border-radius: 25px;
+}
+.button-l{
+    padding: 2%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
 }
 .section2{
     display: flex;
@@ -59,21 +85,60 @@ header nav ul{
     padding: 1.5rem 20%;
 }
 .chapter6{
+    text-align: center;
     flex-basis: 100%;
+}
+.stars-image{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    height: 10%;
+    padding: 2rem;
 }
 .section4{
     background-color: rgb(22, 22, 22);
     display: flex;
     justify-content: center;
-    padding: 1.5rem
+    padding: 1.5rem;
+    height: 320px;
+}
+.button-m{
+    margin-top: 2rem;
+    padding: 0.3rem;
+    border-radius: 25px;
+    background-color: rgb(106, 70, 240);
+    color: white;
+}
+.lingua{
+    color: white;
 }
 .chapter7{
-    background-color: blueviolet;
-    height: 200px;
-    width: 364px;
+    padding-right: 2rem;
+}
+.violet-list{
+    color: violet;
+    padding-bottom: 0.3rem;
+}
+.white-list{
+    color: white;
+    padding-bottom: 0.3rem;
+}
+.text{
+    padding-bottom: 1rem;
+}
+.footer-list{
+    list-style-type: none;
+}
+.section-lingua{
+    display: flex;
+}
+.img-lingua{
+    height: 15px;
+}
+.social-logo{
+    color: white;
+    padding-top: 0.5rem;
 }
 .chapter8{
-    background-color: rgb(39, 197, 197);
     height: 200px;
     width: 184px;
 }
@@ -91,4 +156,7 @@ header nav ul{
     border-radius: 25px;
     background-color: rgb(106, 70, 240);
     color: white;
+}
+.discord-logo{
+    height: 20px;
 }
